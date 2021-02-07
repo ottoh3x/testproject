@@ -1,0 +1,48 @@
+body{
+  background-color:#1b1b1b;
+}
+span{
+    color:#dc3545
+    ;
+    font-weight: bold;
+}
+
+#container{background-color:#041025;}
+h1{color:white}
+
+.getabsoluteurl{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+form .create{
+    text-align: center;
+    color:rgba(243, 243, 243, 0.753);
+    font-weight: bold;
+    padding: 15px;
+    border-bottom: 3px black dashed;
+
+}
+
+
+#navlink {
+  color:#d4c59a8a;
+  font-weight:inherit
+}
+
+#navlink :hover {
+  color:#dfdede;
+}
+
+  #thbar{
+    color:rgb(172, 59, 59);
+    font-weight: bolder;
+  }
+
+.getabsoluteurl a{
+  text-decoration:none;
+ }
+

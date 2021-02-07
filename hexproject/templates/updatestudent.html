@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+    {% block content %}
+
+
+
+<table class="table table-dark table-hover">
+    <thead>
+      <tr>
+        <th id="thbar" scope="col">Full Name</th>
+        <th id="thbar" scope="col">City Born</th>
+        <th id="thbar" scope="col">Age</th>
+      </tr>
+    </thead>
+
+
+    <tbody>
+
+      <tr>
+            
+        <form action="" method="post">
+            {% csrf_token %}
+           
+            
+       
+        <td>{{form.fullname}}</td>
+        <td>{{form.born}}</td>
+        <td>{{form.age}}</td>
+    </tr>
+
+</tbody>
+
+
+</table>
+
+        <h1>Do you want to update this shit?</h1>
+            <input class="btn btn-primary" type="submit" value="Yes">
+         <a  class="btn btn-danger" href='/students/list/'>Cancel</a>
+        </form>
+        
+      {% endblock content %}

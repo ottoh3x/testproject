@@ -1,0 +1,118 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link href="{% static 'css/all.css' %} " rel="stylesheet">
+    <link href="{% static 'css/brands.css' %} " rel="stylesheet">
+    <link href="{% static 'css/solid.css' %} " rel="stylesheet">
+    <link href="{% static 'css/fontawesome.css' %} " rel="stylesheet">
+
+
+
+
+    <link rel="stylesheet" href="{% static 'css\bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css\bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css\style.css' %}">
+
+
+
+    <title>H3x Lab</title>
+</head>
+<body>
+
+
+    <nav>
+        {% include "navbar.html" %}
+    </nav>
+
+    {% block content %}
+    {% include "index.html" %}
+      
+    {% endblock content %}
+    <div id="container" class="container-xxl">
+
+    <br>
+    <br>
+
+    
+
+    {% block update %}
+      
+    {% endblock update %}
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML/alt-text-with-width-height.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML/alt-text-with-width-height.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML/alt-text-with-width-height.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/all.js' %}"></script>
+    <script src="{% static 'js/solid.js' %}"></script>
+    <script src="{% static 'js/brands.js' %}"></script>
+    <script src="{% static 'js/fontawesome.js' %}"></script>
+
+
+</div>
+
+</body>
+</html>

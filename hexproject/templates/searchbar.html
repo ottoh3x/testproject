@@ -1,0 +1,13 @@
+{% if post %}
+
+<h1>sdfdsfdsfd</h1>
+  
+{% for i in post  %}
+
+<h2><a href="/students/list/ {{i.fullname}}"> {{i.born}} : {{i.age}}</a></h2>
+  
+{% endfor %}
+{% else %}
+<h2>nothing found bitch</h2>
+
+{% endif %}
